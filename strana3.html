@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style/style3.css">
+    <link rel="stylesheet" href="style/styleALL.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    
+    <div id="zaglavlje">
+        <a href="index.html" id="logo"><img src="slike/logo.png" alt="" width="150px"></a>
+        <ul>
+            <li><a href="strana1.html">O Jaguaru</a></li>
+            <li><a  href="strana2.html">Modeli u prodaji</a></li>
+            <li><a  href="" id="galerija">Galerija</a></li>
+            <li><a  href="">Saloni i kontakt</a></li>
+        </ul>
+        <h1>Kontaktirajte nas</h1>
+    </div>
+
+    <div id="wrap">
+     <div id="strana">
+        <div id="forma">
+        <form name="forma1" id="forma1" action="">
+            <label for="pol">Pol:</label><br>
+            <select name="pol" id="pol">
+                <option value="Žensko">Žensko</option>
+                <option value="Muško">Muško</option>
+            </select><br>
+
+            <label for="ime">Ime: *</label><br>
+            <input type="text" id="ime" name="ime" class="txt" minlength="2"  required><br>
+
+            <label for="prezime">Prezime: *</label><br>
+            <input type="text" id="prezime" name="prezime"class="txt" minlength="2"  required><br>
+
+            
+            <label for="brTelefona">Broj telefona: </label><br>
+            <input type="text" id="brTelefona" name="brTelefona"class="txt" minlength="9"  ><br>
+
+            <label for="email">Email adresa: *</label><br>
+            <input  type="email" id="email" name="email"class="txt" required><br><br>
+
+            <label for="komentari">Pitanja i komentari: </label><br>
+            <input type="text" id="komentari" name="komentari" size="100"class="txt"><br>
+            <label for="katalog">Da li želite da Vam šaljemo obaveštenja? *</label><br>
+            <input type="radio" name="obavestenje" value="Da" checked> Da<br>
+            <input type="radio" name="obavestenje" value="Ne"> Ne <br>
+            <br>
+            <label for="obavezno">* Obavezna polja</label>
+            <br><br>
+
+            <input type="submit" onclick="poruka();" value="Prosledi">
+
+        </form>
+     </div>
+     <div id="saloni">
+         <h2>Gde možete pronaći naše salone:</h2>
+         
+         <div class="accord">
+             <h3>Beograd</h3>
+            <div> 
+                <br>
+                <ul>
+                    <li>Bulevar kralja Aleksandra </li>
+                   <li> +1122 3344    </li>
+                   <li> Minus repellendus tempore sit.</li>
+                </ul>
+                <br>
+            </div>
+
+              <h3>Novi Sad</h3>
+              <div>
+                <br>
+                <ul>
+                    <li>Dimitrija Tucovica 1 </li>
+                   <li>+1122 3344 </li>
+                   <li> Minus repellendus tempore sit.</li>
+                </ul>
+                <br>
+              </div>
+
+              <h3>Nis</h3>
+              <div>
+                <br>
+                <ul>
+                    <li>Kralja Milana 1 </li>
+                    <li> +1122 3344 </li>
+                    <li> Minus repellendus tempore sit.</li>
+                </ul>
+                <br>
+              </div>
+
+              <h3>Kragujevac</h3>
+              <div>
+                <br>
+                  <ul>
+                    <li>Kneza Miloša 1 </li>
+                    <li> +1122 3344 </li>
+                     <li> Minus repellendus tempore sit.</li>
+                </ul>
+                <br>
+              </div>
+              <h3>Čačak</h3>
+              <div>
+                <br>
+                <ul>
+                    <li> Živka Davidovića 1</li>
+                   <li> +1122 3344 </li>
+                   <li> Minus repellendus tempore sit.</li>
+                </ul>
+                <br>
+              </div>
+
+         </div>
+
+         <br>
+         <img src="slike/prodaja.jpg" alt="" srcset="" width="450">
+
+     </div>
+       <div id="slikaProdaja">
+            <img src="slike/prodaja.jpg" alt="" srcset="" width="500">
+
+        </div> 
+   </div>
+   
+        <div id="kontakt">
+            
+            <div id="text1">
+                <h5>POSETITE NAS</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/Jaguar">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/jaguar/">Instagram</a></li>
+                    <li><a href="https://twitter.com/jaguar">Twitter</a></li>
+                    <li><a href="https://www.youtube.com/user/JaguarCarsLimited">YouTube</a></li>
+                    <li><a href="https://www.linkedin.com/showpxcase/jaguar">LinkedIn</a></li>
+                </ul>
+            </div>
+            
+            <div id="text2">
+                <h5>OUR VALUES</h5>
+                <ul>
+                    <li>Integrity</li>
+                    <li>Understanding</li>
+                    <li>Excellence</li>
+                    <li>Unity</li>
+                    <li>Responsibility</li>
+                </ul>
+            </div>
+
+            <div id="text3">
+                <div id="radimo">
+                    <div>
+                        <ul id="radniDan">
+                            <li>Ponedeljak </li>
+                            <li>Utorak </li>
+                            <li>Sreda</li>
+                            <li>Četvrtak</li>
+                            <li>Petak</li>
+                            <li>Subota</li>
+                            <li>Nedelja</li>
+                        </ul>
+                    </div>
+                    
+                        <div>
+                            <ul id="radnoVreme">
+                            <li>8:30 - 19:00</li>
+                            <li>8:30 - 19:00</li>
+                            <li>8:30 - 19:00</li>
+                            <li>8:30 - 19:00</li>
+                            <li>8:30 - 19:00</li>
+                            <li>8:30 - 14:00</li>
+                            <li>zatvoreno</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+    </div>
+
+    <script src="javaScript/datum.js"></script>
+    <script src="javaScript/script3.js"></script>
+    <script src="javaScript/script.js"></script>
+    <script src="javaScript/galerijaAlert.js"></script>
+
+    
+    <script>
+        $("#forma1").validate();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+
+#sadrzaj{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+#sadrzaj1{
+    display: flex;
+    margin-bottom: 20px;
+}
+#sadrzaj1 p{
+    padding-top: 20px;
+    padding-right: 30px;
+    width: 50%;
+}
+
+#sadrzaj2 .fancyStyle{
+    text-align: center;
+}
+
+h3{
+    color: rgb(190, 10, 10);
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: x-large;
+}
+
+h4{
+    color: rgb(129, 129, 129);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    letter-spacing:1px;
+}
+
+p{
+    color: rgb(119, 118, 118);
+    padding: 15px;
+    font-size: medium;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.fancyStyle{
+    letter-spacing: 6px;
+    font-weight: 400;
+    color: black;
+}
+
+h4{
+    font-size: 25px;
+}
+
+#podnaslovi{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+#podnaslovi div{
+    border: solid grey 1px;
+    padding: 10px;
+    width: 47%;
+}
+
+#podnaslovi p{
+    padding: 15px;
+}
+
+
+.slike{
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#bottomText{
+    margin: 40px 0px;
+    font-size: large;
+    color: black;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+

@@ -1,0 +1,56 @@
+
+#strana{
+    margin-bottom: 80px;
+}
+
+#wrap{
+    margin-top: 250px;
+}
+
+#forma, #saloni{
+    margin: 30px;
+  float: left;
+  border: 2px solid rgb(189, 185, 185);
+  border-radius: 10pt;
+  padding: 30pt;
+ }
+ 
+ input[type=text],select{
+     width: 300px;
+    margin-bottom: 20px;
+  
+ }
+ option{
+   
+     background-color: rgb(156, 156, 156);
+ }
+ input.txt{
+     width: 300px;
+     border: 2px solid rgb(156, 156, 156);
+     border-radius: 2pt;
+ }
+ input[type=submit]{
+     height: 30px;
+     font-size:14px;
+     width: 70px;
+    border: 2px solid black;
+    border-radius: 2pt; 
+    background-color: rgb(172, 166, 166);
+    
+ }
+ #komentari{
+    height: 30pt;
+ }
+ #strana{
+  
+ margin-top: 200px;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ }
+
+ #saloni h2{
+padding: 10pt;
+
+ }

@@ -1,0 +1,34 @@
+
+h2{
+    text-decoration: underline;
+    color: rgb(190, 10, 10);
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: x-large;
+}
+
+#slikeAutomobila{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#modeli{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#modeli div{
+    
+    width: 445px;
+    border: 1px solid silver;
+    margin: 20px;
+}
+#modeli div img{
+    padding: 20px;
+}
